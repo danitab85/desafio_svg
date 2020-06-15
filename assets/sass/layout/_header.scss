@@ -1,0 +1,32 @@
+header {
+    font-family: $raleway;
+}
+
+.navbar {
+    background-color: white!important;
+}
+
+.navbar .session {
+    display: flex;
+}
+
+ul {
+    flex-grow: 1;
+}
+
+.session a {
+    color: black;
+}
+
+.session button{
+    background-color: $ball-blue;
+}
+    
+.session button:hover {
+
+    background-color: $middle-blue;
+}
+
+.session button:focus {
+    background-color: $spanish-gray;
+}

@@ -1,0 +1,25 @@
+footer {
+    height: 100px;
+    background-color: $raising-black;
+    
+}
+
+footer li {
+    color: $white;
+    display: inline-block;
+}
+
+footer li a {
+    color: $white;
+    font-family: $open;
+
+}
+
+footer .container {
+    position: relative;
+}
+
+footer ul {
+    position: absolute;
+    top:40px;
+}
